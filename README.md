@@ -24,41 +24,41 @@ Mid: 3 - 7 or we felt like it
 Flop: 3 or below
 
 ### PP 
-	1. JavaScript
+1. JavaScript
 
 ### PF
-	1. Visual Basic	
-	1. PHP
-	1. Perl
-	1. Java
+1. Visual Basic	
+1. PHP
+1. Perl
+1. Java
 
 ### FP
-	1. Python
+1. Python
 
 ### FF
-	1. VBA
-	1. Scala
-	1. Rust
-	1. Lua
-	1. Delphi/Pascal
-	1. Cobol
-	1. Ada
-	1. Abap
+1. VBA
+1. Scala
+1. Rust
+1. Lua
+1. Delphi/Pascal
+1. Cobol
+1. Ada
+1. Abap
 
 ### MID for life
-	1. Swift
-	1. Ruby
-	1. Onjective-C
-	1. Matlab
-	1. Kotlin
-	1. Julia
-	1. Haskell
-	1. C#
-	1. C/C++
+1. Swift
+1. Ruby
+1. Objective-C
+1. Matlab
+1. Kotlin
+1. Julia
+1. Haskell
+1. C#
+1. C/C++
 
 ### Gaining Popularity
-	1. TypeScript
-	1. R
-	1. Groovy
-	1. Go
-	1. Dart
+1. TypeScript
+1. R
+1. Groovy
+1. Go
+1. Dart
