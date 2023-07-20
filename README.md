@@ -11,7 +11,8 @@ Data analysis on most popular programming languages from 2004 to 2022
 - [x] Cover languages that were popular and are no longer popular.
 - [x] Cover languages that have become popular in the recent years.
 - [x] Cover languages that never took off.
-- [ ] find the co-relation b/w a language's sucess and others failure.
+- [x] find the co-relation b/w a language's sucess and others failure.
+- [ ] Format your code.
 - [ ] Write the paper.
 
 ## Languages that match the descriptions outline
