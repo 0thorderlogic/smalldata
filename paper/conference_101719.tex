@@ -42,31 +42,39 @@ T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \title{Popularity of Programming languages over the years\\
 {\footnotesize \textsuperscript{}Data analysis on most popular programming languages from 2004 to 2022}}
 
-
+\noindent
 \author{\IEEEauthorblockN{Aryan Singh}
 \IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
 \textit{Meghnad Saha Institute of Technology}\\
 Calcutta, India \\
 \texttt{aryansingh\_cse2021@msit.edu.in}}
 \and
+
+\noindent
 \IEEEauthorblockN{Neeraj P Pillai}
 \IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
 \textit{Meghnad Saha Institute of Technology}\\
 Calcutta, India \\
 \texttt{neeraj\_p.cse2021@msit.edu.in}}
 \and
+
+\noindent
 \IEEEauthorblockN{Abdul Basit}
 \IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
 \textit{Meghnad Saha Institute of Technology}\\
 Calcutta, India \\
 \texttt{abdul\_b.cse2021@msit.edu.in}}
 \and
+
+\noindent
 \IEEEauthorblockN{Kuntal Barik}
 \IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
 \textit{Meghnad Saha Institute of Technology}\\
 Calcutta, India \\
 \texttt{kuntal\_b.cse2021@msit.edu.in}}
 \and
+
+\noindent
 \IEEEauthorblockN{Harshil D Sheth}
 \IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
 \textit{Meghnad Saha Institute of Technology}\\
@@ -102,11 +110,11 @@ The secondary category are designed to include languages that show  trends that 
 \end{itemize}
 
 \section{Definitions}
-\textbf{Popular:} for a language to be considered popular a minimum of 8% or 8 out of every 100 people must use the language. 
+\textbf{Popular:} for a language to be considered popular a minimum of 8 percent or 8 out of every 100 people must use the language. 
 
-\textbf{Mid:} is a language that never crossed the upper boundary of 7% and a lower boundary of 3%.
+\textbf{Mid:} is a language that never crossed the upper boundary of 7 percent and a lower boundary of 3 percent.
 
-\textbf{Bust:} is a language that never gained more than 3% of the dominant market share.
+\textbf{Bust:} is a language that never gained more than 3 percent of the dominant market share.
 
 \section{Primary Classification}
 
@@ -116,6 +124,7 @@ The languages which have remained popular over the year. The only language in ou
 \item{Javacript}
 \end{itemize}
 
+\noindent
 \includegraphics[scale=0.4]{lineplot/javascript.png}
 
 
@@ -124,11 +133,12 @@ The languages which are no longer popular.
 
 \begin{itemize}
 \item{Visual Basic}
-\item{PHP}:Although PHP never reached a market dominant position, reaching a maximum position of \(20.8%\) market share we can however correlate its downfall to Python with a correlation coefficient of \(-0.943219\)
+\item{PHP}:Although PHP never reached a market dominant position, reaching a maximum position of 20.8 percent market share we can however correlate its downfall to Python with a correlation coefficient of \(-0.943219\)
 \item{Perl}
 \item{Java}
 \end{itemize}
 
+\noindent
 \includegraphics[scale=0.4]{lineplot/visualbasic.png}
 \includegraphics[scale=0.4]{lineplot/php.png}
 \includegraphics[scale=0.4]{lineplot/perl.png}
@@ -140,6 +150,7 @@ The languages which have become popular. The only language fitting this descript
 \item{Python}
 \end{itemize}
 
+\noindent
 \includegraphics[scale=0.4]{lineplot/python.png}
 
 \subsection{FF}
@@ -156,6 +167,7 @@ The languages that never gained market dominance
 \item{Abap}
 \end{itemize}
 
+\noindent
 \includegraphics[scale=0.4]{lineplot/vba.png}
 \includegraphics[scale=0.4]{lineplot/scala.png}
 \includegraphics[scale=0.4]{lineplot/rust.png}
@@ -183,6 +195,7 @@ These languages have been included in this category not because they are haphaza
 \item{C/C++}
 \end{itemize}
 
+\noindent
 \includegraphics[scale=0.4]{lineplot/swift.png}
 \includegraphics[scale=0.4]{lineplot/ruby.png}
 \includegraphics[scale=0.4]{lineplot/objective-c.png}
@@ -202,9 +215,10 @@ These languages haven't been around for the entirety of the data set so due to t
 \item{R}
 \item{Groovy}
 \item{Go}
-\item{Dart}:At the peak of success, Dart controlled the market share of \(0.7%\) although it is not a market-dominant position by any stretch one can find a very high positive correlation \(0.901937\) with Python. 
+\item{Dart}:At the peak of success, Dart controlled the market share of 0.7 percent although it is not a market-dominant position by any stretch one can find a very high positive correlation \(0.901937\) with Python. 
 \end{itemize}
 
+\noindent
 \includegraphics[scale=0.4]{lineplot/typescript.png}
 \includegraphics[scale=0.4]{lineplot/r.png}
 \includegraphics[scale=0.4]{lineplot/groovy.png}
@@ -263,7 +277,7 @@ import pandas as pd
 import seaborn as sb
 
 data = pd.read_csv('data/original_data.csv');
-data.to_csv('data/ad3.csv', float_format='%.3f')
+data.to_csv('data/temp.csv', float_format='%.3f')
 
 sb.regplot(x='Python', y='Java', data = data)
 data2 = data.drop(columns = ['Months','Date'])
@@ -281,22 +295,24 @@ sb.lineplot(data = data3)
 \texttt{A visual representation of the co-relation between Java and Python's fall and rise}\\
 
 \includegraphics[scale=0.5]{regplot/java-v-python.png}\\
-\texttt{A visual representation of the co-relation between Java and Python's fall and rise}
+\texttt{A visual representation of the regression plot of Java and Python}
 
 \section{Data}
 
 \subsection{Data and derivatives}
 
 \begin{itemize}
+\color{blue}
 \item \href{https://github.com/0thorderlogic/smalldata/blob/main/data/backup.csv}{Original Data CSV file}
 \item \href{https://github.com/0thorderlogic/smalldata/tree/main/barplot}{Barplot graphs of all langauages}
 \item \href{https://github.com/0thorderlogic/smalldata/tree/main/lineplot}{Lineplot graphs of all langauages}
-\item \href{https://github.com/0thorderlogic/smalldata/tree/main/regplot}{Regplot graphs of all langauages}
+\item \href{https://github.com/0thorderlogic/smalldata/tree/main/regplot}{Regression plot graphs expressing correlation between Java and Python}
 \end{itemize}
 
 \subsection{Jupyter Notebook}
 
 \begin{itemize}
+\color{blue}
 \item \href{https://github.com/0thorderlogic/smalldata/blob/main/main.ipynb}{Main}
 \item \href{https://github.com/0thorderlogic/smalldata/blob/main/correlation.ipynb}{Correlation}
 \item \href{https://github.com/0thorderlogic/smalldata/blob/main/visuals.ipynb}{Visualisation}
