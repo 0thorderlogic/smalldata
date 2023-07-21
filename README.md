@@ -1,6 +1,13 @@
 # Smalldata
 A project by undergrads of Meghnad Saha Institute of Technology's CSE department.
 
+## Team
+
+Aryan Singh
+Neeraj P Pillai
+Kuntal Barik
+Abdul Basit
+Harshil D Sheth
 
 ## Description 
 Data analysis on most popular programming languages from 2004 to 2022
