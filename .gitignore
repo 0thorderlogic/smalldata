@@ -161,4 +161,5 @@ cython_debug/
 
 .jupyter/
 
-data/temp/*
+temp/*.csv
+# *.csv

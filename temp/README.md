@@ -1,0 +1,1 @@
+This dir should remain empty to be used by the programs, not for end users.
